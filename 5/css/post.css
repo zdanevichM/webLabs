@@ -1,0 +1,80 @@
+.link-a a:first-child{
+    text-decoration: none;
+    font-weight: 700;
+}
+#titel{
+    display: flex;
+    padding: 24px 0px 24px 24px;
+    gap: 10px;
+    border: 1px solid rgba(17, 34, 68, 0.5);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #112244;
+}
+
+#textar{
+    display: flex;
+    padding: 24px;
+    gap: 10px;
+    width: 100%;
+    height: 232px;
+    max-width: 100%;
+    border: 1px solid rgba(17, 34, 68, 0.5);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #112244;
+}
+
+#select{
+    cursor: pointer;
+    padding: 24px;
+    gap: 10px;
+    border: 1px solid rgba(17, 34, 68, 0.5);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #112244;
+}
+
+.img-input{
+    cursor: pointer;
+    padding: 20px 40px;
+    gap: 10px;
+    width: fit-content;
+    border: 1px solid #624C90;
+    border-radius: 7px;
+    flex-direction: unset;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #624C90;
+}
+
+#img{
+    display: none;
+}
+
+form>button{
+    width: fit-content;
+    display: flex;
+    padding: 20px 40px;
+    gap: 10px;
+    background: #624C90;
+    border-radius: 7px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
