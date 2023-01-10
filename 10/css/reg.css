@@ -1,0 +1,75 @@
+form>div{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+form span{
+    width: 100%;
+}
+
+label{
+    width: 100%;
+}
+
+label>input{
+    display: flex;
+    padding: 24px 0px 24px 24px;
+    gap: 10px;
+
+    border: 1px solid rgba(17, 34, 68, 0.5);
+    border-radius: 5px;
+}
+
+.check-box{
+    flex-direction: unset;
+    gap: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222;
+}
+
+form>button{
+    padding: 20px 40px;
+    gap: 10px;
+
+    width: fit-content;
+    border: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    background: #624C90;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+form>button:disabled{
+    background: #CCCCCC;
+    cursor: default;
+}
+
+.error img{
+    display: none;
+}
+
+.error>div{
+    display: none;
+    gap: 8px;
+}
+
+.ok>img:first-child, .error>div.ok{
+    display: flex;
+    color: #3CA255;
+}
+
+.not>img:last-child, .error>div.not{
+    display: flex;
+    color: rgba(238, 34, 34, 0.9);
+}
+

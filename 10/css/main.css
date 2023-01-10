@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Golos Text VF';
+    outline: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Golos Text VF"; 
+    src: url("../Lab_10_LocalStorage/design/Golos-Text_VF.ttf") format("truetype");
+} 
+@font-face {
+    font-family: "Golos-UI_VF"; 
+    src: url("../Lab_10_LocalStorage/design/Golos-UI_VF.ttf") format("truetype");
+} 
+
+body{
+    background-color: #F3F3F3;
+}
+
+header{
+    background-color: #624C90;
+    display: flex;
+    padding: 15px 60px 16px 60px;
+    justify-content: space-between;
+}
+
+header a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.link-a{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.link-a button{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    padding: 12px 20px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #553B8B;
+}
+
+.link-a a:first-child{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+main{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+main form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(17, 34, 68, 0.5);
+}
+
+
+footer{
+    margin: 0 60px 62px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-links a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #366AF3;
+}
+
+.inc{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+}
